@@ -2,8 +2,13 @@ public class Prueba {
     public static void main(String[] args) {
         Contador c = new Contador();
         Contador z = new Contador();
-        c.setValor(4);
-        z.setValor(5);
+
+        // Da 'true' porque en 'Contador.java' hemos cambiado el cuerpo del método 'equals'
+        System.out.println(c.equals(z));
+        // Da 'falso' porque no 'apuntan' al mismo espacio en memoria ambas variables
+        System.out.println(c == z);
+        //c.setValor(4);
+        //z.setValor(5);
         System.out.println(c.getValor());
         System.out.println(z.getValor());
         System.out.println(c == z);
