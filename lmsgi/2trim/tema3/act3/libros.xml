@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+  <libro>
+    <titulo>Fuente Ovejuna</titulo>
+    <autor>Lope de Vega</autor>
+    <isbn>84-9815-002-7</isbn>
+  </libro>
+  <libro>
+    <titulo>La Celestina</titulo>
+    <autor>Fernando de Rojas</autor>
+    <isbn>84-96390-96-9</isbn>
+  </libro>
+  <libro>
+    <titulo>Lazarillo de Tormes</titulo>
+    <autor>Anónimo</autor>
+    <isbn>97-88467-0334-03</isbn>
+  </libro>
+  <libro>
+    <titulo>El hingenioso Hidalgo Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes Saavedra</autor>
+    <isbn>97-88467-0169-01</isbn>
+  </libro>
+  <libro>
+    <titulo>Alicia en el país de las maravillas</titulo>
+    <autor>Lewis Carrol</autor>
+    <isbn>97-88415-6187-13</isbn>
+  </libro>
+</libros>

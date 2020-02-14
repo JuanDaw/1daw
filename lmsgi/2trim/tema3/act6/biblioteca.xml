@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca
+xmlns="http://www.biblioteca.com">
+
+    <libro>
+        <titulo>El largo camino a casa</titulo>
+        <autor>Alan Hlad</autor>
+        <editorial>Espasa</editorial>
+        <fechapublicacion>2019</fechapublicacion>
+        <ISBN>9788467058307</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>La tierra esconde tu secreto</titulo>
+        <autor>Lina Bengtsdotter</autor>
+        <editorial>Planeta</editorial>
+        <fechapublicacion>2018</fechapublicacion>
+        <ISBN>9788408221890</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>En una selva oscura</titulo>
+        <autor>Nicole Krauss</autor>
+        <editorial>Salamandra</editorial>
+        <fechapublicacion>2018</fechapublicacion>
+        <ISBN>9788498388961</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>La casa del padre</titulo>
+        <autor>Karmele Jaio</autor>
+        <editorial>Destino</editorial>
+        <fechapublicacion>2019</fechapublicacion>
+        <ISBN>9788423356768</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>Todo esto existe</titulo>
+        <autor>Iñigo Redondo</autor>
+        <editorial>Random House</editorial>
+        <fechapublicacion>2019</fechapublicacion>
+        <ISBN>9788439736639</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>El poder de confiar en ti</titulo>
+        <autor>Curro Cañete</autor>
+        <editorial>Planeta</editorial>
+        <fechapublicacion>2020</fechapublicacion>
+        <ISBN>9788408205630</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>El libro de la vida</titulo>
+        <autor>leon Tolstoi</autor>
+        <editorial>El Acantilado</editorial>
+        <fechapublicacion>2019</fechapublicacion>
+        <ISBN>9788417902032</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>El visitante</titulo>
+        <autor>Stephen King</autor>
+        <editorial>Plaza y Janes</editorial>
+        <fechapublicacion>2019</fechapublicacion>
+        <ISBN>9788401021190</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>Maldita</titulo>
+        <autor>Frank Miller</autor>
+        <editorial>Ocenano</editorial>
+        <fechapublicacion>2018</fechapublicacion>
+        <ISBN>9788412030457</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>El heredero</titulo>
+        <autor>Rafael Tarradas Bulto</autor>
+        <editorial>Espasa</editorial>
+        <fechapublicacion>2020</fechapublicacion>
+        <ISBN>9788467058147</ISBN>
+    </libro>
+
+</biblioteca>

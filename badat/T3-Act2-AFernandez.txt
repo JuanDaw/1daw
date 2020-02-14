@@ -1,0 +1,20 @@
+-- 1
+\?
+-- 2
+\h
+-- 3
+\du
+-- 4
+\l
+-- 5
+\d
+-- 6
+\d investigador
+-- 7
+\c postgres
+-- 8
+\pset format wrapped
+-- 9
+\s
+-- 10
+\o consultas.txt

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="peliculas.xsd">
+
+  <pelicula>
+    <titulo>Fugitivos Encadenados</titulo>
+    <director>Denzel Washington</director>
+    <duracion>90</duracion>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>El Jaguar</titulo>
+    <director>Jane Manhattan</director>
+    <duracion>90</duracion>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Pánico en el Túnel</titulo>
+    <director>John Malkovick</director>
+    <duracion>150</duracion>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>En Honor a la Verdad</titulo>
+    <director>Matt Damon</director>
+    <duracion>120</duracion>
+  </pelicula>
+
+</peliculas>
+

@@ -1,0 +1,54 @@
+ Table "public.asignado_a"
+       Column       |     Type      | Collation | Nullable | Default 
+--------------------+---------------+-----------+----------+---------
+ cod_investigador   | integer       |           | not null | 
+ cod_proyecto       | integer       |           | not null | 
+ fecha_inicio       | date          |           | not null | 
+ fecha_fin          | date          |           |          | 
+ tipo_participacion | character(50) |           | not null | 
+Indexes:
+    "pk_asigando_a" PRIMARY KEY, btree (cod_investigador, cod_proyecto)
+Foreign-key constraints:
+    "fk_cod_inv_investigador_asignado_a" FOREIGN KEY (cod_investigador) REFERENCES investigador(cod_investigador) ON UPDATE RESTRICT ON DELETE RESTRICT
+    "fk_cod_pro_proyecto_asignado_a" FOREIGN KEY (cod_proyecto) REFERENCES proyecto(cod_proyecto) ON UPDATE RESTRICT ON DELETE RESTRICT
+
+Table "public.investigador"
+      Column      |     Type      | Collation | Nullable | Default 
+------------------+---------------+-----------+----------+---------
+ cod_investigador | integer       |           | not null | 
+ dni_investigador | character(50) |           | not null | 
+ nombre           | character(50) |           | not null | 
+ ciudad           | character(50) |           |          | 
+ telefono         | character(15) |           |          | 
+Indexes:
+    "pk_investigador" PRIMARY KEY, btree (cod_investigador)
+    "investigador_dni_investigador_key" UNIQUE CONSTRAINT, btree (dni_investigador)
+Referenced by:
+    TABLE "asignado_a" CONSTRAINT "fk_cod_inv_investigador_asignado_a" FOREIGN KEY (cod_investigador) REFERENCES investigador(cod_investigador) ON UPDATE RESTRICT ON DELETE RESTRICT
+
+Table "public.plan"
+     Column     |     Type      | Collation | Nullable | Default 
+----------------+---------------+-----------+----------+---------
+ cod_plan       | integer       |           | not null | 
+ nombre         | character(30) |           | not null | 
+ ent_financiera | character(30) |           |          | 
+Indexes:
+    "pk_plan" PRIMARY KEY, btree (cod_plan)
+Referenced by:
+    TABLE "proyecto" CONSTRAINT "fk_cod_plan_plan_proyecto" FOREIGN KEY (cod_plan) REFERENCES plan(cod_plan) ON UPDATE RESTRICT ON DELETE RESTRICT
+
+Table "public.proyecto"
+    Column    |     Type      | Collation | Nullable | Default 
+--------------+---------------+-----------+----------+---------
+ cod_proyecto | integer       |           | not null | 
+ cod_plan     | integer       |           | not null | 
+ nombre       | character(50) |           | not null | 
+ fecha_inicio | date          |           | not null | 
+ fecha_fin    | date          |           |          | 
+ presupuesto  | integer       |           | not null | 
+Indexes:
+    "pk_proyecto" PRIMARY KEY, btree (cod_proyecto)
+Foreign-key constraints:
+    "fk_cod_plan_plan_proyecto" FOREIGN KEY (cod_plan) REFERENCES plan(cod_plan) ON UPDATE RESTRICT ON DELETE RESTRICT
+Referenced by:
+    TABLE "asignado_a" CONSTRAINT "fk_cod_pro_proyecto_asignado_a" FOREIGN KEY (cod_proyecto) REFERENCES proyecto(cod_proyecto) ON UPDATE RESTRICT ON DELETE RESTRICT

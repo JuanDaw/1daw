@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facturas
+xmlns="http://www.videoclub.com">
+
+    <factura>
+        <cliente id="023">
+            <nombre>Alonso</nombre>
+            <apellidos>Fernández Vidal</apellidos>
+            <dni>52659760F</dni>
+            <telefono>653951361</telefono>
+        </cliente>
+        <ticket>
+            <alquileres>
+              <pelicula idPelicula="008" valoracion="8">
+                <titulo>Joker</titulo>
+                <genero>Thriller</genero>
+                <duracion>121</duracion>
+                <actores>
+                  <actor>Joaquin Phoenix</actor>
+                  <actor>Robert De Niro</actor>
+                  <actor>Zazie Beetz</actor>
+                </actores>
+              </pelicula>
+              <devolucion>31/01/2020</devolucion>
+            </alquileres>
+            <compras>
+              <DVDs>
+                <titulo>Ad astra</titulo>
+                <fechaSalida>22/01/2020</fechaSalida>
+              </DVDs>
+              <cintasDeVideo>
+                <formato>VHS</formato>
+              </cintasDeVideo>
+            </compras>
+            <formapago>VISA</formapago>
+            <importe>19.50€</importe>
+        </ticket>
+    </factura>
+
+</facturas>

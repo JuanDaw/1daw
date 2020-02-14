@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<maquinas>
+  <maquina>
+    <pais>Australia</pais>
+    <maquina>Tractor</maquina>
+    <vendedor>López</vendedor>
+    <mes>Enero</mes>
+    <cantidad>2</cantidad>
+    <precio>$ 18000</precio>
+  </maquina>
+  <maquina>
+    <pais>EEUU</pais>
+    <maquina>Cosechadora</maquina>
+    <vendedor>Larus</vendedor>
+    <mes>Febrero</mes>
+    <cantidad>7</cantidad>
+    <precio>$ 65000</precio>
+  </maquina>
+  <maquina>
+    <pais>EEUU</pais>
+    <maquina>Tractor</maquina>
+    <vendedor>Salinas</vendedor>
+    <mes>Marzo</mes>
+    <cantidad>2</cantidad>
+    <precio>$ 18000</precio>
+  </maquina>
+  <maquina>
+    <pais>Brasil</pais>
+    <maquina>Cosechadora</maquina>
+    <vendedor>Soriano</vendedor>
+    <mes>Enero</mes>
+    <cantidad>4</cantidad>
+    <precio>$ 65000</precio>
+  </maquina>
+  <maquina>
+    <pais>Brasil</pais>
+    <maquina>Fertilizadora</maquina>
+    <vendedor>Peña</vendedor>
+    <mes>Febrero</mes>
+    <cantidad>9</cantidad>
+    <precio>$ 49670</precio>
+  </maquina>
+  <maquina>
+    <pais>EEUU</pais>
+    <maquina>Fertilizadora</maquina>
+    <vendedor>Salinas</vendedor>
+    <mes>Marzo</mes>
+    <cantidad>4</cantidad>
+    <precio>$ 49670</precio>
+  </maquina>
+  <maquina>
+    <pais>China</pais>
+    <maquina>Enfardadora</maquina>
+    <vendedor>Chuan</vendedor>
+    <mes>Enero</mes>
+    <cantidad>20</cantidad>
+    <precio>$ 19000</precio>
+  </maquina>
+  <maquina>
+    <pais>China</pais>
+    <maquina>Sembradora</maquina>
+    <vendedor>Chuan</vendedor>
+    <mes>Febrero</mes>
+    <cantidad>10</cantidad>
+    <precio>$ 19000</precio>
+  </maquina>
+  <maquina>
+    <pais>Australia</pais>
+    <maquina>Tractor</maquina>
+    <vendedor>López</vendedor>
+    <mes>Marzo</mes>
+    <cantidad>11</cantidad>
+    <precio>$ 18000</precio>
+  </maquina>
+</maquinas>

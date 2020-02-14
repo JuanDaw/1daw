@@ -1,0 +1,1 @@
+n = int(input('Introduce el número a calcular: '))

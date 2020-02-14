@@ -1,0 +1,24 @@
+body{
+  background-color: #1E90FF;
+  font-family: "Century Gothic";
+  color: #0000CD;
+  text-align: justify;
+}
+table{
+  background-color: #1E9000;
+}
+h1{
+  color:#000080;
+  text-align: center;
+}
+h2 {
+  color:#191970;
+  text-align: center;
+}
+A:link {
+  color: #DA70D6;
+}
+
+A:visited {
+  color: #8B008B;
+}

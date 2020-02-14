@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hoteles
+xmlns:mad="http://www.madrid.com"
+xmlns:bar="http://www.barcelona.com"
+xmlns:sev="http://www.sevilla.com">
+
+  <mad:hotel>
+    <mad:nombre>Hotel Paraiso</mad:nombre>
+    <mad:telefono>654987123</mad:telefono>
+    <mad:direccion>
+      <mad:calle>Mandragora</mad:calle>
+      <mad:numero>15</mad:numero>
+    </mad:direccion>
+    <mad:ciudad>Getafe</mad:ciudad>
+    <mad:pais>España</mad:pais>
+    <mad:estrellas>5</mad:estrellas>
+    <mad:descripcion>Tranquilo resort para despejarte</mad:descripcion>
+    <mad:habitaciones individual="32" dobles="16" triples="8" suite="5"/>
+  </mad:hotel>
+  
+  <mad:hotel>
+    <mad:nombre>Hote la casita</mad:nombre>
+    <mad:telefono>693597325</mad:telefono>
+    <mad:direccion>
+      <mad:calle>Particula</mad:calle>
+      <mad:numero>23</mad:numero>
+    </mad:direccion>
+    <mad:ciudad>Aranjuez</mad:ciudad>
+    <mad:pais>España</mad:pais>
+    <mad:estrellas>3</mad:estrellas>
+    <mad:descripcion>Hotel alejado de la ciudad</mad:descripcion>
+    <mad:habitaciones individual="12" dobles="24" triples="0" suite="0"/>
+  </mad:hotel>
+  
+  <bar:hotel>
+    <bar:nombre>Hotel Callejón</bar:nombre>
+    <bar:telefono>657984325</bar:telefono>
+    <bar:direccion>
+      <bar:calle>Marioneta</bar:calle>
+      <bar:numero>34</bar:numero>
+    </bar:direccion>
+    <bar:ciudad>Tarrasa</bar:ciudad>
+    <bar:pais>España</bar:pais>
+    <bar:estrellas>4</bar:estrellas>
+    <bar:descripcion>Hotel cosmopolita</bar:descripcion>
+    <bar:habitaciones individual="6" dobles="16" triples="2" suite="0"/>
+  </bar:hotel>
+  
+  <bar:hotel>
+    <bar:nombre>Hotel cueva del gato</bar:nombre>
+    <bar:telefono>691538927</bar:telefono>
+    <bar:direccion>
+      <bar:calle>Interestelar</bar:calle>
+      <bar:numero>88</bar:numero>
+    </bar:direccion>
+    <bar:ciudad>Badalona</bar:ciudad>
+    <bar:pais>España</bar:pais>
+    <bar:estrellas>4</bar:estrellas>
+    <bar:descripcion>Hotel para socializar</bar:descripcion>
+    <bar:habitaciones individual="0" dobles="35" triples="10" suite="2"/>
+  </bar:hotel>
+  
+  <sev:hotel>
+    <sev:nombre>Hotel Ibis</sev:nombre>
+    <sev:telefono>643139861</sev:telefono>
+    <sev:direccion>
+      <sev:calle>Perdida</sev:calle>
+      <sev:numero>3</sev:numero>
+    </sev:direccion>
+    <sev:ciudad>Gines</sev:ciudad>
+    <sev:pais>España</sev:pais>
+    <sev:estrellas>3</sev:estrellas>
+    <sev:descripcion>Hotel para estrechar lazos</sev:descripcion>
+    <sev:habitaciones individual="5" dobles="34" triples="0" suite="1"/>
+  </sev:hotel>
+
+</hoteles>

@@ -1,0 +1,4 @@
+#Ficheros compilar JAVA
+*.class
+#Programa diagrama de flujos PSeInt
+/endes/PSEINT

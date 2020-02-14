@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BDsms
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="BDsms.xsd">
+
+  <sms>
+    <telefono>600-234543</telefono>
+    <fecha>12-3-2016</fecha>
+    <hora>10:05</hora>
+    <mensaje>Cine 22:00</mensaje>
+  </sms>
+  
+  <sms>
+    <telefono>900-345678</telefono>
+    <fecha>3-5-2016</fecha>
+    <hora>10:00</hora>
+    <mensaje>Veterinario San Luis: recoger a Nina</mensaje>
+  </sms>
+  
+  <sms>
+    <telefono>800-345643</telefono>
+    <fecha>3-5-16</fecha>
+    <hora>22:00</hora>
+    <mensaje>Cumpleaños Esteban, Bar Sandokan</mensaje>
+  </sms>
+
+</BDsms>
+

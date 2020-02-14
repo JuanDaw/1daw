@@ -1,0 +1,44 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+
+  <libro añopublicacion="1619">
+    <titulo>Fuente Ovejuna</titulo>
+    <autor>Lope de Vega</autor>
+    <isbn>84-9815-002-7</isbn>
+    <editorial>Altaya</editorial>
+    <descripcion>Obra teatral del Siglo de Oro español.</descripcion>
+  </libro>
+  
+  <libro añopublicacion="1499">
+    <titulo>La Celestina</titulo>
+    <autor>Fernando de Rojas</autor>
+    <isbn>84-96390-96-9</isbn>
+    <editorial>Planeta</editorial>
+    <descripcion>Tragicomedia de Calisto y Melibea.</descripcion>
+  </libro>
+  
+  <libro añopublicacion="1554">
+    <titulo>Lazarillo de Tormes</titulo>
+    <autor>Anónimo</autor>
+    <isbn>97-88467-0334-03</isbn>
+    <editorial>Vertigo</editorial>
+    <descripcion>Autobiografía de la vida de niño del Lazarillo de Tormes.</descripcion>
+  </libro>
+  
+  <libro añopublicacion="1605">
+    <titulo>El hingenioso Hidalgo Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes Saavedra</autor>
+    <isbn>97-88467-0169-01</isbn>
+    <editorial>Altaya</editorial>
+    <descripcion>Historia donde narra las aventuras de Don Quijote y su fiel amigo y Sancho Panza.</descripcion>
+  </libro>
+  
+  <libro añopublicacion="1865">
+    <titulo>Alicia en el país de las maravillas</titulo>
+    <autor>Lewis Carrol</autor>
+    <isbn>97-88415-6187-13</isbn>
+    <editorial>Destino</editorial>
+    <descripcion>Alicia cae por un agujero, encontrándose en un mundo peculiar.</descripcion>
+  </libro>
+  
+</libros>

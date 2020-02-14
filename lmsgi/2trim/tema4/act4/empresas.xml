@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empresas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="empresas.xsd">
+
+  <empresa>
+    <nombre>AGROPECUARIO DON BLASCO, S.L.</nombre>
+    <empleados>16</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>EL RINCON DE ZAFRA</nombre>
+    <empleados>2</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>EXPLOTAC. AGRARIAS CAMPO LA PARRA, S.L.</nombre>
+    <empleados>3</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>EXPLOTACIONES AGROPECUARIAS MUÑIZ, S.L.</nombre>
+    <empleados>4</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>EXPLOTACIONES LA HOYA, S.L.</nombre>
+    <empleados>2</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>HELOPOL, S.L.</nombre>
+    <empleados>4</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>NATURA MAGICA, S.L.</nombre>
+    <empleados>6</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>PORVIÑA 2000, S.L.</nombre>
+    <empleados>1</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+  
+  <empresa>
+    <nombre>SOCIEDAD GANADERA LAS MOHEDAS, S.L.</nombre>
+    <empleados>2</empleados>
+    <actividad>0110 Producción agrícola</actividad>
+  </empresa>
+
+</empresas>
+

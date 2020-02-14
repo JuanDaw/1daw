@@ -1,0 +1,43 @@
+body{
+    color: blue;
+    text-align: center;
+    background: black;
+}
+h1{
+    color: red;
+    font-size: xx-large;
+    font-family: arial;
+}
+h2{
+    color: orange;
+    font-size: x-large;
+    font-family: courier;
+}
+h3{
+    color: green;
+    font-size: large;
+    font-family: verdana;
+}
+h4{
+    color: #200000;
+    font-size: medium;
+    font-family: helvetica;
+}
+h5{
+    color: #008080;
+    font-size: small;
+    font-family: sans-serif;
+}
+h6{
+    color: #005000;
+    font-size: x-small;
+    font-family: times;
+}
+a:link{
+    color: red;
+    font-size: xx-small;
+}
+a:visited{
+    color: white;
+    font-size: xx-large;
+}

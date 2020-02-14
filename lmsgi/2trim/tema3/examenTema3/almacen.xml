@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<almacen>
+
+  <articulo cantidad="35">
+    <codigo_articulo>523-1489</codigo_articulo>
+    <nombre>rodilleras</nombre>
+    <descripcion>rodilleras de neopreno</descripcion>
+    <color>azul</color>
+    <talla>L</talla>
+    <precio>22.95€</precio>
+  </articulo>
+
+<articulo cantidad="59">
+    <codigo_articulo>573-9287</codigo_articulo>
+    <nombre>camiseta</nombre>
+    <descripcion>camiseta de algodón con logo</descripcion>
+    <color>verde</color>
+    <talla>M</talla>
+    <precio>13.59€</precio>
+  </articulo>
+
+  <articulo cantidad="24">
+    <codigo_articulo>456-9874</codigo_articulo>
+    <nombre>balón</nombre>
+    <descripcion>balón de baloncesto</descripcion>
+    <color>marrón</color>
+    <talla>única</talla>
+    <precio>35.99€</precio>
+  </articulo>
+
+  <articulo cantidad="7">
+    <codigo_articulo>123-9513</codigo_articulo>
+    <nombre>calzonas</nombre>
+    <descripcion>calzonas para halterofilia</descripcion>
+    <color>rojo</color>
+    <talla>L</talla>
+    <precio>24.99€</precio>
+  </articulo>
+
+  <articulo cantidad="8">
+    <codigo_articulo>569-8741</codigo_articulo>
+    <nombre>sudadera</nombre>
+    <descripcion>sudadera de poliester</descripcion>
+    <color>naranja</color>
+    <talla>L</talla>
+    <precio>29.99€</precio>
+  </articulo>
+
+</almacen>

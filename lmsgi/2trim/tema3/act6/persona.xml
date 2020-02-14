@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona
+xmlns="http://www.persona.com">
+
+    <nombre>Juan Pardo</nombre>
+    <nacimiento dia="10" mes="Abril" anyo="1982" />
+    <direccion>
+        <calle>Caoba, 1</calle>
+        <poblacion>Madrid</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28005</cpostal>
+    </direccion>
+    <varon/>
+
+</persona>

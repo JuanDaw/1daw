@@ -1,0 +1,36 @@
+-- 1
+select *
+from investigador
+order by nombre asc;
+-- 2
+select *
+from investigador
+order by ciudad desc;
+-- 3
+select cod_investigador as "Código",
+			 dni_investigador as "DNI",
+			 nombre as "Nombre investigador"
+from investigador
+order by nombre desc;
+-- 4
+select *
+from investigador
+order by ciudad asc, nombre desc;
+-- 5
+select plan.cod_plan as "Código plan",
+			 plan.nombre as "Nombre",
+			 proyecto.cod_proyecto as "Código proyecto",
+			 proyecto.nombre as "Nombre proyecto"
+from plan cross join proyecto on plan.cod_plan = proyecto.cod_plan
+order by plan.nombre asc, proyecto.nombre asc;
+-- 6
+select plan.cod_plan as "Código plan",
+			 plan.nombre as "Nombre",
+			 proyecto.cod_proyecto as "Código proyecto",
+			 proyecto.nombre as "Nombre proyecto"
+from plan, proyecto
+where plan.cod_plan = proyecto.cod_plan and
+			presupuesto < 150000
+order by plan.nombre asc, proyecto.nombre asc;
+-- 7
+

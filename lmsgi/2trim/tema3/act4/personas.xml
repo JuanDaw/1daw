@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF8"?>
+<personas>
+
+    <persona>
+
+        <nombre>Pedro</nombre>
+
+        <DNI>123456789</DNI>
+
+    </persona>
+
+    <persona>
+
+        <nombre>María</nombre>
+
+        <DNI>987654321</DNI>
+
+    </persona>
+
+</personas>

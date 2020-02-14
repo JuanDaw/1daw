@@ -1,0 +1,35 @@
+-- 1
+select *
+from plan
+where ent_financiera = 'BBVA';
+-- 2
+select *
+from investigador
+where ciudad = 'Cádiz';
+-- 3
+select *
+from investigador
+where telefono is null;
+-- 4
+select *
+from investigador
+where telefono is null
+	and ciudad = 'Cádiz';
+-- 5
+select *
+from investigador
+where ciudad = 'Jerez' or
+	ciudad = 'Cádiz';
+-- 6
+select *
+from investigador
+where (ciudad = 'Jerez' and telefono is null) or
+	(ciudad = 'Cádiz' and telefono is not null);
+-- 7
+select nombre, cod_proyecto
+from proyecto
+where presupuesto > 150000;
+-- 8
+select nombre
+from proyecto
+where presupuesto > 10000;

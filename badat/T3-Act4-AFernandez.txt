@@ -1,0 +1,54 @@
+-- 1
+select pro.nombre, inv.nombre
+from proyecto as pro, asignado_a as asig, investigador as inv
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador;
+-- 2
+select pro.nombre, inv.nombre
+from proyecto as pro, asignado_a as asig, investigador as inv
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			ciudad = 'Cádiz';
+-- 3
+select inv.nombre, pro.fecha_inicio
+from proyecto as pro, asignado_a as asig, investigador as inv
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			tipo_participacion = 'Responsable' and
+			pro.nombre = 'Phoenix';
+-- 4
+select pro.nombre
+from proyecto as pro, asignado_a as asig, investigador as inv
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			inv.ciudad = 'Sevilla';
+-- 5
+select inv.nombre, inv.telefono
+from proyecto as pro, asignado_a as asig, investigador as inv
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			pro.presupuesto < 50000;
+-- 6
+select inv.nombre
+from proyecto as pro, asignado_a as asig, investigador as inv, plan
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			plan.cod_plan = pro.cod_plan and
+			asig.tipo_participacion = 'Principal' and
+			plan.ent_financiera = 'ING';
+-- 7
+select pro.cod_proyecto, pro.nombre
+from proyecto as pro, asignado_a as asig, investigador as inv
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			presupuesto < 100000 and
+			ciudad = 'Barcelona';
+-- 8
+select plan.nombre
+from proyecto as pro, asignado_a as asig, investigador as inv, plan
+where pro.cod_proyecto = asig.cod_proyecto and
+			asig.cod_investigador = inv.cod_investigador and
+			plan.cod_plan = pro.cod_plan and
+			presupuesto > 10000 and
+			tipo_participacion = 'Principal' and
+			(ciudad = 'Madrid' or ciudad = 'Barcelona');

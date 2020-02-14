@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<discografia
+xmlns="http://www.garrosdiscografia.org"
+xmlns:com="http://www.compositores.org"
+xmlns:pro="http://www.productores.org">
+
+  <cancion duracion="4:47" anio="2008">
+    <titulo>Give it 2 me</titulo>
+    <com:compositores>
+      <com:compositor>
+        <com:nombre>Pharrell</com:nombre>
+        <com:apellidos>Williams</com:apellidos>
+      </com:compositor>
+      <com:compositor>
+        <com:nombre>Madonna</com:nombre>
+        <com:apellidos>Louise</com:apellidos>
+      </com:compositor>
+    </com:compositores>
+    <pro:productores>
+      <pro:productor>
+        <pro:nombre>Pharrell</pro:nombre>
+        <pro:apellidos>Williams</pro:apellidos>
+      </pro:productor>
+      <pro:productor>
+        <pro:nombre>Madonna</pro:nombre>
+        <pro:apellidos>Louise</pro:apellidos>
+      </pro:productor>
+    </pro:productores>
+    <sello>Warner Bros. Records</sello>
+    <artista>Madonna</artista>
+  </cancion>
+  
+  <cancion duracion="3:09" anio="2008">
+    <titulo>Shake</titulo>
+    <com:compositores>
+      <com:compositor>
+        <com:nombre>Pharrell</com:nombre>
+        <com:apellidos>Williams</com:apellidos>
+      </com:compositor>
+      <com:compositor>
+        <com:nombre>Madonna</com:nombre>
+        <com:apellidos>Louise</com:apellidos>
+      </com:compositor>
+    </com:compositores>
+    <pro:productores>
+      <pro:productor>
+        <pro:nombre>Pharrell</pro:nombre>
+        <pro:apellidos>Williams</pro:apellidos>
+      </pro:productor>
+      <pro:productor>
+        <pro:nombre>Madonna</pro:nombre>
+        <pro:apellidos>Louise</pro:apellidos>
+      </pro:productor>
+    </pro:productores>
+    <sello>Warner Bros. Records</sello>
+    <artista>Madonna</artista>
+  </cancion>
+  
+  <cancion duracion="3:45" anio="2008">
+    <titulo>Get Down</titulo>
+    <com:compositores>
+      <com:compositor>
+        <com:nombre>Pharrell</com:nombre>
+        <com:apellidos>Williams</com:apellidos>
+      </com:compositor>
+      <com:compositor>
+        <com:nombre>Madonna</com:nombre>
+        <com:apellidos>Louise</com:apellidos>
+      </com:compositor>
+    </com:compositores>
+    <pro:productores>
+      <pro:productor>
+        <pro:nombre>Pharrell</pro:nombre>
+        <pro:apellidos>Williams</pro:apellidos>
+      </pro:productor>
+      <pro:productor>
+        <pro:nombre>Madonna</pro:nombre>
+        <pro:apellidos>Louise</pro:apellidos>
+      </pro:productor>
+    </pro:productores>
+    <sello>Warner Bros. Records</sello>
+    <artista>Madonna</artista>
+  </cancion>
+  
+  <cancion duracion="3:32" anio="2008">
+    <titulo>Let's Go Dancing</titulo>
+    <com:compositores>
+      <com:compositor>
+        <com:nombre>Pharrell</com:nombre>
+        <com:apellidos>Williams</com:apellidos>
+      </com:compositor>
+      <com:compositor>
+        <com:nombre>Madonna</com:nombre>
+        <com:apellidos>Louise</com:apellidos>
+      </com:compositor>
+    </com:compositores>
+    <pro:productores>
+      <pro:productor>
+        <pro:nombre>Pharrell</pro:nombre>
+        <pro:apellidos>Williams</pro:apellidos>
+      </pro:productor>
+      <pro:productor>
+        <pro:nombre>Madonna</pro:nombre>
+        <pro:apellidos>Louise</pro:apellidos>
+      </pro:productor>
+    </pro:productores>
+    <sello>Warner Bros. Records</sello>
+    <artista>Madonna</artista>
+  </cancion>
+  
+  <cancion duracion="6:11 " anio="2008">
+    <titulo>Wild Dancing</titulo>
+    <com:compositores>
+      <com:compositor>
+        <com:nombre>Pharrell</com:nombre>
+        <com:apellidos>Williams</com:apellidos>
+      </com:compositor>
+      <com:compositor>
+        <com:nombre>Madonna</com:nombre>
+        <com:apellidos>Louise</com:apellidos>
+      </com:compositor>
+    </com:compositores>
+    <pro:productores>
+      <pro:productor>
+        <pro:nombre>Pharrell</pro:nombre>
+        <pro:apellidos>Williams</pro:apellidos>
+      </pro:productor>
+      <pro:productor>
+        <pro:nombre>Madonna</pro:nombre>
+        <pro:apellidos>Louise</pro:apellidos>
+      </pro:productor>
+    </pro:productores>
+    <sello>Warner Bros. Records</sello>
+    <artista>Madonna</artista>
+  </cancion>
+  
+</discografia>
