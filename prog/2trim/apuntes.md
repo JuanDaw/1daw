@@ -8,3 +8,15 @@ Muchas sentencias en varias líneas de código encerradas entre llaves forman un
     AND -> &&
     OR -> ||
     NOT -> !
+En python == denota igualdad y 'is' idéntico
+En java <code>==</code> denota ser idénticos
+JAVA
+
+## Primitivo
+Igualdad '=='
+Identidad
+## Referencias
+Igualdad 'equals'
+Identidad '=='
+
+## Polimorfismo
