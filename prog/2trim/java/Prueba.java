@@ -1,12 +1,21 @@
 public class Prueba {
     public static void main(String[] args) {
+        Persona yo = new Persona("Alonso", 956956956);
+        Cliente juan = new Cliente("Juan", 958958958, 105);
 
-        Contador c = new Contador(5);
+        System.out.println(yo.nombre);
+        System.out.println(yo.telefono);
+
+        System.out.println(juan.nombre);
+        System.out.println(juan.numero);
+
+
+        // Contador c = new Contador(5);
         
-        System.out.println(c.getValor());
-        c.siguiente();
-        System.out.println(c.getValor());
-        System.out.println(c.siguiente());
+        // System.out.println(c.getValor());
+        // c.siguiente();
+        // System.out.println(c.getValor());
+        // System.out.println(c.siguiente());
         
         
         
