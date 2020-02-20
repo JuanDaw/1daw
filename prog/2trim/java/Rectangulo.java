@@ -1,4 +1,4 @@
-public class Rectangulo extends Figura {
+public final class Rectangulo extends Figura {
     Rectangulo(double an, double al) {
         super(an, al);
     }
