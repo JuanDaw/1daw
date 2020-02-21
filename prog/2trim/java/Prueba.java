@@ -3,10 +3,14 @@ public class Prueba {
         Persona yo = new Persona("Alonso", 956956956);
         Cliente juan = new Cliente("Juan", 958958958, 105);
 
-        System.out.println(yo.nombre);
-        System.out.println(yo.telefono);
+        yo.set("Manolo", 1111111);
+        juan.set(55555);
+        juan.set(25L);
 
-        System.out.println(juan.nombre);
+        System.out.println(yo.getNombre());
+        System.out.println(yo.getTelefono());
+
+        System.out.println(juan.getNombre());
         System.out.println(juan.numero);
 
 

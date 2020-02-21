@@ -5,4 +5,8 @@ public class Cliente extends Persona {
         super(nom, telf);
         numero = num;
     }
+
+    public void set(long num) {
+        numero = num;
+    }
 }
