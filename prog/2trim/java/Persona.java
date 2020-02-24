@@ -2,6 +2,14 @@ public class Persona {
     private String nombre;
     private int telefono;
 
+    Persona() {
+
+    }
+
+    Persona(String nom) {
+        setNombre(nom);
+    }
+
     Persona(String nom, int telf) {
         setNombre(nom);
         setTelefono(telf);
@@ -37,5 +45,9 @@ public class Persona {
 
     public void set(int telf) {
         telefono = telf;
+    }
+
+    public Object getNose() {
+        return new Object();
     }
 }
