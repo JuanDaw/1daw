@@ -2,21 +2,23 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="persona">
     <xs:complexType>
-      <xs:sequence>
+      <xs:all>
         <xs:element ref="datos"/>
-        <xs:element name="comentario" type="xs:string"/>
-      </xs:sequence>
-      <xs:attribute name="nacimiento" type="xs:string" use="required"/>
+        <xs:element name="comentario" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      </xs:all>
+      <xs:attribute name="nacimiento" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="datos">
     <xs:complexType>
-      <xs:sequence>
+      <xs:all>
         <xs:element name="nombre" type="xs:string"/>
         <xs:element name="apelllidos" type="xs:string"/>
         <xs:element name="dni" type="xs:string"/>
         <xs:element name="ocupacion" type="xs:string"/>
-      </xs:sequence>
+      </xs:all>
     </xs:complexType>
   </xs:element>
 </xs:schema>
+
+ENUMERATION O PATERN EN OCUPACION
