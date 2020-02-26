@@ -18,6 +18,11 @@ public class Persona {
         // telefono = telf;
     }
 
+    @Override
+    public String toString() {
+        return getNombre() + " " + getTelefono();
+    }
+
     public String getNombre() {
         return nombre;
     }

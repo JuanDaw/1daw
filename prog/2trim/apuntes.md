@@ -45,3 +45,21 @@ String w = new String("Hola");
 
 s == w -> False
 ```
+## Metodos 'String'
+
+```java
+String s = "hola";
+
+// Devuelve un 'String' que es un 'substring' del 'String'
+s.substring​(int beginIndex)
+s.substring​(int beginIndex, int endIndex)
+
+// Convierte el 'String' a minúsculas
+s.toLowerCase()
+
+// Convierte el 'String' a mayúsculas
+s.toUpperCase()
+
+// Convierte cualquier 'Object' a 'String'
+s.toString()
+```

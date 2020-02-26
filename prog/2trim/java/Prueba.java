@@ -1,23 +1,27 @@
 public class Prueba {
     public static void main(String[] args) {
         Persona yo = new Persona("Alonso", 956956956);
-        Cliente juan = new Cliente("Juan", 111111111, 105);
+        String cadena = yo.toString();
+
+        System.out.println(cadena);
+
+        // Cliente juan = new Cliente("Juan", 111111111, 105);
 
 
         // yo.set("Manolo", 1111111);
         // juan.set(55555);
         // juan.set(25L);
 
-        System.out.println(yo.getNombre());
-        System.out.println(yo.getTelefono());
+        // System.out.println(yo.getNombre());
+        // System.out.println(yo.getTelefono());
 
-        System.out.println(juan.getNombre());
-        System.out.println(juan.numero);
+        // System.out.println(juan.getNombre());
+        // System.out.println(juan.numero);
 
         // Depende a que 'class' nos refiramos así ejecuta un método u otro(Polimorfismo)
-        imprimeNombre(juan);
+        // imprimeNombre(juan);
 
-        System.out.println(juan.getTelefono());
+        // System.out.println(juan.getTelefono());
 
 
         // Contador c = new Contador(5);
