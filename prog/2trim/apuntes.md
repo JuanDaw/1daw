@@ -63,3 +63,5 @@ s.toUpperCase()
 // Convierte cualquier 'Object' a 'String'
 s.toString()
 ```
+
+## Referencia nula

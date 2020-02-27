@@ -1,9 +1,11 @@
 public class Prueba {
     public static void main(String[] args) {
         Persona yo = new Persona("Alonso", 956956956);
-        String cadena = yo.toString();
+        Persona tambienYo = new Persona(yo);
 
-        System.out.println(cadena);
+        yo.setNombre("Manolo");
+
+        System.out.println(tambienYo.getNombre());
 
         // Cliente juan = new Cliente("Juan", 111111111, 105);
 
