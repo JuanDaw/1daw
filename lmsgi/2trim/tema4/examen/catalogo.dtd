@@ -1,0 +1,10 @@
+<!ELEMENT catalogo (libro+)>
+<!ELEMENT libro (autor, titulo, genero, precio, fechaPublicacion, descripcion)>
+<!ATTLIST libro
+          id CDATA #REQUIRED>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

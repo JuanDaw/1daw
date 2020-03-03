@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogo
+xmlns:xs= "http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="catalogo.xsd">
+  <libro id="bk101">
+    <autor>Garghentini, Davide</autor>
+    <titulo>Guía de desarrollo XML</titulo>
+    <genero>Informatica</genero>
+    <precio>44.95</precio>
+    <fechaPublicacion>01-01-2000</fechaPublicacion>
+    <descripcion>Una revisión profunda a la creación de aplicaciones con XML</descripcion>
+  </libro>
+  <libro id="bk102">
+    <autor>García, Debra</autor>
+    <titulo>Lluvia de medianoche</titulo>
+    <genero>Fantasia</genero>
+    <precio>5.95</precio>
+    <fechaPublicacion>16-12-2000</fechaPublicacion>
+    <descripcion>Un antiguo arquitecto lucha contra zombis corporativos,
+    una hechicera, y su propia infancia.</descripcion>
+  </libro>
+</catalogo>
