@@ -64,4 +64,30 @@ s.toUpperCase()
 s.toString()
 ```
 
-## Referencia nula
+## API
+- métodos
+- constantes (fianles)
+- atributos
+- miembros estáticos
+    - métodos
+    - atributos
+
+## StringBuilder y StringBuffer
+La diferencia es que StringBuffer es thread-safe y no tiene problemas de race conditions. StringBuilder no es thread-safe lo que le supone una posible sobrecarga.  
+En el 90% de los programas se utiliza StringBuilder.  
+La capacidad de ambos es de 16 caracteres. Podemos definir una capacidad distinta
+```java
+StringBuilder sb = new StringBuilder(200);
+```
+Podemos reducir la capacidad del StringBuilder a la longitud actual con el siguiente método
+```java
+sb.trimToSize()
+```
+Ambos métodos son 'costosos', hay que intentar evitar ambos procesos.  
+DIFERENCIA ENTRE:
+```java
+// Se asegura que se crea un nuevo objeto 'String'
+(new String(sb)).equals("hola")
+// En este caso no se garantiza que se cree un nuevo objeto 'String'. Es posible que en String pool hubiera ya una cadena que coincidiera con la cadena 'sb' no creando un nuevo 'String'
+sb.toString().equals("hola")
+```

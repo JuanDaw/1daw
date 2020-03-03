@@ -13,15 +13,13 @@ public class Persona {
     Persona(String nom, int telf) {
         setNombre(nom);
         setTelefono(telf);
+    }
 
     Persona(Persona otra) {
         setNombre(otra.getNombre());
         setTelefono(otra.getTelefono());
     }
         
-        // nombre = nom;
-        // telefono = telf;
-    }
 
     @Override
     public String toString() {
