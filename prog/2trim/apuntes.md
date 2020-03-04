@@ -91,3 +91,112 @@ DIFERENCIA ENTRE:
 // En este caso no se garantiza que se cree un nuevo objeto 'String'. Es posible que en String pool hubiera ya una cadena que coincidiera con la cadena 'sb' no creando un nuevo 'String'
 sb.toString().equals("hola")
 ```
+
+## Clases 'wrapper'
+- int -> Integer
+- float -> Float
+- double -> Double
+- boolean -> Boolean
+- char -> Character
+- long -> Long
+- short -> Short
+- byte -> Byte
+
+```java
+// Ambas líneas hacen lo mismo
+Integer i = New Integer(5)
+Integer i = Integer.valueOf(5)
+```
+```java
+// Intenta convertir una cadena a 'int'
+Integer.parseInt("25")
+```
+```java
+public static Number suma (Number x, Number y) {
+    return x + y;
+}
+```
+## Boxing/unboxing
+- Boxing consiste en meter en un objeto de la clase wrapped un valor primitivo.  
+De un valor primitivo obtenemos un objeto de la clase wrapped.
+```java
+// int 5 -> Integer
+Integer i = 5;
+```
+- Teniendo un objeto de la clase wrapped, lo saca, obteniendo un valor primitivo.  
+De un objeto de la clase wrapped obtenemos un valor primitivo.
+```java
+int j = i;
+```
+
+```java
+public class Prueba {
+    public static void main(String[] args) {
+        int res;
+
+        res = suma(5, 4);
+
+        // Conversión implícita
+        // res = (int) suma(5, 4);
+
+        System.out.println(res);
+    }
+
+    public static int suma(int x, int y) {
+        return x + y;
+    }
+}
+```
+```java
+public class Prueba {
+    public static void main(String[] args) {
+        // El 'int' recibido de la suma y almacenado en 'res' pasa a ser 'Number'
+        Number res;
+
+        // hace 'boxing' al sumar y devuelve un 'int'
+        res = suma(5, 4);
+
+        System.out.println(res);
+    }
+
+    public static long suma(int x, int y) {
+        return x + y;
+    }
+}
+```
+```java
+public class Prueba {
+    public static void main(String[] args) {
+        imprime(5);
+        imprime(null);
+    }
+
+    public static void imprime(Object x) {
+        System.out.println(x);
+    }
+}
+```
+## Tipos de estructuras de programción
+- Secuencial  
+Se ejecuta de manera secuencial. Su estructura van entre '{}'.
+Donde se espera una sentencia se puede poner un bloque.
+- Alternativa
+
+- Repetitiva
+
+```java
+// x = 4 * 3
+switch (x) {
+    case 5:
+    case 6:
+    System.out.println("Vale 5 o 6");
+    break;
+
+    case 12:
+    System.out.println("Vale 12");
+    break;
+
+    default:
+    System.out.println("No vale ni 5 ni 12");
+}
+```
