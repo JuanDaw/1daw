@@ -189,14 +189,14 @@ Donde se espera una sentencia se puede poner un bloque.
 switch (x) {
     case 5:
     case 6:
-    System.out.println("Vale 5 o 6");
-    break;
+        System.out.println("Vale 5 o 6");
+        break;
 
     case 12:
-    System.out.println("Vale 12");
-    break;
+        System.out.println("Vale 12");
+        break;
 
     default:
-    System.out.println("No vale ni 5 ni 12");
+        System.out.println("No vale ni 5 ni 12");
 }
 ```
