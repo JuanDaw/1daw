@@ -200,3 +200,43 @@ switch (x) {
         System.out.println("No vale ni 5 ni 12");
 }
 ```
+## Entrada/Salida
+'in' (InputStream)-> Entrada estándar del S.O.  
+'out' (PrintStream)-> Salida estándar del S.O.  
+'err' (PrintStream)-> Salida estándar de errores.
+- Salida  
+```java
+System.out.println("...");
+```
+La clase 'System' tiene 'in', 'out' y 'err'
+- Entrada  
+System.in usualmente la utilizaremos con java.util.Scanner (No está en el paquete java.lang)
+```java
+System.in
+```
+## Estructuras de control repetitivas
+```java
+while (condicion) {
+    ...
+    ...
+    ...
+}
+```
+```java
+for (inicializaciñón; condición; actualización) {
+    ...
+    ...
+    ...
+}
+for (i = 0; i <= 10; i ++) {
+    ...
+    ...
+    ...
+}
+EQUIVALENCIA
+inicialización;
+while (condición) {
+    cuerpo
+    actualización;
+}
+```

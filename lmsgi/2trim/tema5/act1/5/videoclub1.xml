@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="p1.xsl"?>
+<peliculas>
+  <pelicula>
+    <titulo>El Drama</titulo>
+    <nacionalidad>España</nacionalidad>
+    <productor>Paco</productor>
+    <director>Alonso</director>
+    <año>1888</año>
+    <duracion>1.36</duracion>
+    <genero>Drama</genero>
+    <sipnosis>Pelicula de llorar</sipnosis>
+    <url>http://pelis.com/drama</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Repetir inecesariamenta</titulo>
+    <nacionalidad>España</nacionalidad>
+    <productor>Fernando</productor>
+    <director>Alonso</director>
+    <año>1999</año>
+    <duracion>1.88</duracion>
+    <genero>Terror</genero>
+    <sipnosis>Repetir lo mismo muchas veces sin valer para nada</sipnosis>
+    <url>http://pelis.com/repetir</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>El Ratón</titulo>
+    <nacionalidad>Argentina</nacionalidad>
+    <productor>Pancho</productor>
+    <director>Manuel</director>
+    <año>1987</año>
+    <duracion>1.87</duracion>
+    <genero>Comedia</genero>
+    <sipnosis>Un raton que habla</sipnosis>
+    <url>http://pelis.com/raton</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>El Billetaje</titulo>
+    <nacionalidad>Mexico</nacionalidad>
+    <productor>Luisito</productor>
+    <director>Dross</director>
+    <año>2018</año>
+    <duracion>1.36</duracion>
+    <genero>Terror - Documental</genero>
+    <sipnosis>Historia de amor y odio entre comunica y aterrador</sipnosis>
+    <url>http://pelis.com/money</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La Grapadora</titulo>
+    <nacionalidad>Chile</nacionalidad>
+    <productor>Travel</productor>
+    <director>Club</director>
+    <año>1963</año>
+    <duracion>3.55</duracion>
+    <genero>Humor</genero>
+    <sipnosis>Una grapadora con arte</sipnosis>
+    <url>http://pelis.com/grapadora</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Aburrimiento</titulo>
+    <nacionalidad>España</nacionalidad>
+    <productor>Jeronimo</productor>
+    <director>Paco</director>
+    <año>1987</año>
+    <duracion>1.36</duracion>
+    <genero>Accion</genero>
+    <sipnosis>Tiros y malos</sipnosis>
+    <url>http://pelis.com/aburrimiento</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Calculadora</titulo>
+    <nacionalidad>Portugal</nacionalidad>
+    <productor>Joao</productor>
+    <director>Ronaldo</director>
+    <año>1985</año>
+    <duracion>2.88</duracion>
+    <genero>Thriler</genero>
+    <sipnosis>Sumar y sumar...</sipnosis>
+    <url>http://pelis.com/calculadora</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Nazis</titulo>
+    <nacionalidad>Alemana</nacionalidad>
+    <productor>Hitler</productor>
+    <director>Hitler</director>
+    <año>1946</año>
+    <duracion>88.25</duracion>
+    <genero>Romance</genero>
+    <sipnosis>El amor de un nazi</sipnosis>
+    <url>http://pelis.com/nazi</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Independencia Catalana</titulo>
+    <nacionalidad>Indefinida</nacionalidad>
+    <productor>Junqueras</productor>
+    <director>Rufián</director>
+    <año>2017</año>
+    <duracion>0.0</duracion>
+    <genero>Humor</genero>
+    <sipnosis>Un puñado de tontos siguiendo a otros tontos.</sipnosis>
+    <url>http://pelis.com/idiotas</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Adriancito</titulo>
+    <nacionalidad>España</nacionalidad>
+    <productor>Ni idea</productor>
+    <director>Alonso</director>
+    <año>1995</año>
+    <duracion>03.50</duracion>
+    <genero>comedia</genero>
+    <sipnosis>una historia genial</sipnosis>
+    <url>http://pelis.com/</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>El Cannabis</titulo>
+    <nacionalidad>Mexico</nacionalidad>
+    <productor>Juan</productor>
+    <director>Lupe</director>
+    <año>1987</año>
+    <duracion>1.25</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Fumar cannabis a todas horas</sipnosis>
+    <url>http://pelis.com/cannabis</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La Tarea</titulo>
+    <nacionalidad>España</nacionalidad>
+    <productor>IES Doñana</productor>
+    <director>LMSGI</director>
+    <año>2018</año>
+    <duracion>2.0</duracion>
+    <genero>Gore</genero>
+    <sipnosis>Aburrimiento sin límites</sipnosis>
+    <url>http://pelis.com/tarea</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La colonia</titulo>
+    <nacionalidad>Uruguay</nacionalidad>
+    <productor>Francisco</productor>
+    <director>Daniel</director>
+    <año>1999</año>
+    <duracion>1.0</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Qué bien huele</sipnosis>
+    <url>http://pelis.com/colonia</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Hard Disk</titulo>
+    <nacionalidad>EEUU</nacionalidad>
+    <productor>Spilberg</productor>
+    <director>Spilberg</director>
+    <año>1999</año>
+    <duracion>320.0</duracion>
+    <genero>Computer</genero>
+    <sipnosis>Discos locos</sipnosis>
+    <url>http://pelis.com/hd</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>Carpeta</titulo>
+    <nacionalidad>EEUU</nacionalidad>
+    <productor>Windows</productor>
+    <director>Escritorio</director>
+    <año>2018</año>
+    <duracion>1.0</duracion>
+    <genero>Drama</genero>
+    <sipnosis>Guardar archivos</sipnosis>
+    <url>http://pelis.com/carpeta</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La colonia 2</titulo>
+    <nacionalidad>Uruguay</nacionalidad>
+    <productor>Francisco</productor>
+    <director>Daniel</director>
+    <año>1999</año>
+    <duracion>1.0</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Qué bien huele</sipnosis>
+    <url>http://pelis.com/colonia</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La colonia 3</titulo>
+    <nacionalidad>Uruguay</nacionalidad>
+    <productor>Francisco</productor>
+    <director>Daniel</director>
+    <año>1999</año>
+    <duracion>1.0</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Qué bien huele</sipnosis>
+    <url>http://pelis.com/colonia</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La colonia 4</titulo>
+    <nacionalidad>Uruguay</nacionalidad>
+    <productor>Francisco</productor>
+    <director>Daniel</director>
+    <año>1999</año>
+    <duracion>1.0</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Qué bien huele</sipnosis>
+    <url>http://pelis.com/colonia</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La colonia 5</titulo>
+    <nacionalidad>Uruguay</nacionalidad>
+    <productor>Francisco</productor>
+    <director>Daniel</director>
+    <año>1999</año>
+    <duracion>1.0</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Qué bien huele</sipnosis>
+    <url>http://pelis.com/colonia</url>
+  </pelicula>
+  
+  <pelicula>
+    <titulo>La colonia 6</titulo>
+    <nacionalidad>Uruguay</nacionalidad>
+    <productor>Francisco</productor>
+    <director>Daniel</director>
+    <año>1999</año>
+    <duracion>1.0</duracion>
+    <genero>Documental</genero>
+    <sipnosis>Qué bien huele</sipnosis>
+    <url>http://pelis.com/colonia</url>
+  </pelicula>
+  
+</peliculas>

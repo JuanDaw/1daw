@@ -37,10 +37,10 @@
     <precio>8.00</precio>
   </libro>
   <libro>
-    <titulo>Carrera nula</titulo>
+    <titulo>Proyecto salida</titulo>
     <autor>Alonso Fernández</autor>
     <editor>Altaya</editor>
-    <isbn>978-57-8106-401-8</isbn>
-    <precio>23.23</precio>
+    <isbn>978-43-5697-128-8</isbn>
+    <precio>23.15</precio>
   </libro>
 </libreria>
