@@ -51,3 +51,14 @@ public class Actividad2 {
     }
 }
 ```
+2. Escribir un programa JAVA para operar con(Una versión con enteros y otra versión con reales):
+- Primer operando: 5
+- Operación: *
+- Segundo operando : 7
+- Resultado: 35
+
+```java
+
+```
+
+3. 

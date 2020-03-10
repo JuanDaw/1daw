@@ -228,15 +228,51 @@ for (inicializaciñón; condición; actualización) {
     ...
     ...
 }
+
+// Ejemplo
+
 for (i = 0; i <= 10; i ++) {
     ...
     ...
     ...
 }
-EQUIVALENCIA
+
+// Bucle infinito
+
+for ( ; ; ) {
+
+}
+```
+EQUIVALE A:
+```java
 inicialización;
 while (condición) {
     cuerpo
     actualización;
 }
 ```
+```java
+// Comprueba la condición al final de la iteración
+// Al menos una vez se ejecuta el bloque de código
+do {
+
+} while (condición);
+```
+EQUIVALE A:
+```java
+inicialización;
+while (condición) {
+    cuerpo
+    actualización;
+}
+```
+## Capturar excepciones
+´´´java
+try {
+    ...
+    ...
+} catch () {
+    ...
+    ...
+}
+´´´
