@@ -276,3 +276,6 @@ try {
     ...
 }
 ´´´
+## Métodos Scanner
+"nextInt()" y "next()" no consume los delimitadores finales  
+"nextLine()" si consume el '\n' final
