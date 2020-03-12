@@ -61,4 +61,10 @@ public class Actividad2 {
 
 ```
 
-3. 
+3. Generalizar la actividad 2 para expresiones con un número arbitrario de operaciones.
+
+4. Generalizar en el caso de que todos los números sean reales.
+
+5. Generalizar al caso de que los números sean enteros y reales. (notación postfija(polaca inversa))
+
+6. Evaluar una expresión postfija.

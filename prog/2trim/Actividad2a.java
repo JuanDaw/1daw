@@ -8,6 +8,7 @@ public class Actividad2a {
         int op1, op2;
         String op;
 
+
         for (;;) {
             try {
                 System.out.print("Primer operando: ");
@@ -17,7 +18,7 @@ public class Actividad2a {
                 System.out.print("Operación: ");
                 op = scanner.nextLine();
 
-                if (op != "+" && op != "-" && op != "*" && op != "/") {
+                if (!operadorValido(op)) {
                     System.err.println("El operador no es correcto");
                     continue;
                 }
@@ -36,18 +37,20 @@ public class Actividad2a {
             } catch (NoSuchElementException e) {
                 System.err.println("Faltan datos.");
                 return;
+            } finally {
+                System.err.println("Estoy en el finally");
+                scanner.close();
             }
 
         }
 
-
-
+        scanner.close();
     }
 
-    // public static boolean operadorValido(String op) {
-    //     return op == "+" || op == "-" || op == "*" || op == "/":
+    public static boolean operadorValido(String op) {
+        return op == "+" || op == "-" || op == "*" || op == "/";
 
-    // }
+    }
 
     public static int calcula(int op1, int op2, String op) {
         int res = 0;
