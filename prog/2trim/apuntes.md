@@ -267,7 +267,7 @@ while (condición) {
 }
 ```
 ## Capturar excepciones
-´´´java
+```java
 try {
     ...
     ...
@@ -275,7 +275,36 @@ try {
     ...
     ...
 }
-´´´
+```
 ## Métodos Scanner
 "nextInt()" y "next()" no consume los delimitadores finales  
 "nextLine()" si consume el '\n' final
+
+## Array
+- Se indexan por posición.
+- Ocupa una zona de memoria contigua.
+- El tipo de los datos que almacena tienen que ser previamente definidos y del mismo tipo.
+- Los array tienen un número fijo de elementos.
+
+```java
+// Declaramos el array
+int[] a = new int[5];
+// Cambiamos valor del objeto array definido, asignamos el valor '99' a la posición '2' 
+a[2] = 99;
+// Longitud del array(atributo)
+a.length
+// Recorrer array
+for (int i = 0; i < a.length; i++) {
+    System.out.println(a[i]);
+}
+// Con 'for'mejorado
+for (int n: a) {
+    System.out.println(n);
+}
+```
+## for mejorado
+```java
+for (x : colección) {
+
+}
+```
