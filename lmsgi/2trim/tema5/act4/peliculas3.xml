@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="p3.xsl" ?>
+
+<peliculas>
+      <pelicula url="https://es.wikipedia.org/wiki/Batman_Begins">
+            <Titulo>Batman Begings</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Warner Bros</Productor>
+            <Director>Christopher Nolan</Director>
+            <Ano>2005</Ano>
+            <Duracion>140</Duracion>
+            <Genero>Ciencia ficcion</Genero>
+            <Sipnosis>Nueva adaptación del famoso cómic. Narra los orígenes de la leyenda de Batman y los motivos
+                  que lo convirtieron en el representante del Bien en la ciudad de Gotham. Bruce Wayne vive obsesionado
+                  con el recuerdo de sus padres, muertos a tiros en su presencia. Atormentado por el dolor, se va de
+                  Gotham y recorre el mundo hasta que encuentra a un extraño personaje que lo adiestra en todas las
+                  disciplinas físicas y mentales que le servirán para combatir el Mal. Por esta razón, la Liga de las
+                  Sombras, una poderosa y subversiva sociedad secreta, dirigida por el enigmático Ra's Al Ghul,
+                  intenta reclutarlo. Cuando Bruce vuelve a Gotham, la ciudad está dominada por el crimen y la corrupción.
+                  Con la ayuda de su leal mayordomo Alfred, del detective de la policía Jim Gordon y de Lucius Fox, su
+                  colega en una Sociedad de Ciencias Aplicadas, Wayne libera a su alter ego: Batman, un justiciero
+                  enmascarado que utiliza la fuerza, la inteligencia y la más alta tecnología para luchar contra las
+                  siniestras fuerzas que amenazan con destruir la ciudad.</Sipnosis>
+            <Foto>batman1.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/The_Dark_Knight">
+            <Titulo>El caballero oscuro</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Warner Bros</Productor>
+            <Director>Christopher Nolan</Director>
+            <Ano>2008</Ano>
+            <Duracion>152</Duracion>
+            <Genero>Ciencia ficcion</Genero>
+            <Sipnosis>Batman/Bruce Wayne (Christian Bale) regresa para continuar su guerra contra el crimen. Con la
+                  ayuda del teniente Jim Gordon (Gary Oldman) y del Fiscal del Distrito Harvey Dent (Aaron Eckhart),
+                  Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra
+                  su eficacia, pero, de repente, aparece Joker (Heath Ledger), un nuevo criminal que desencadena
+                  el caos y tiene aterrados a los ciudadanos.</Sipnosis>
+            <Foto>batman2.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/The_Dark_Knight_Rises">
+            <Titulo>El caballero oscuro: La leyenda renace</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Warner Bros</Productor>
+            <Director>Christopher Nolan</Director>
+            <Ano>2012</Ano>
+            <Duracion>164</Duracion>
+            <Genero>Ciencia ficcion</Genero>
+            <Sipnosis>Hace ocho años que Batman desapareció, dejando de ser un héroe para convertirse en un fugitivo.
+                  Al asumir la culpa por la muerte del fiscal del distrito Harvey Dent, el Caballero Oscuro decidió
+                  sacrificarlo todo por lo que consideraba, al igual que el Comisario Gordon, un bien mayor. La mentira
+                  funciona durante un tiempo, ya que la actividad criminal de la ciudad de Gotham se ve aplacada gracias
+                  a la dura Ley Dent. Pero todo cambia con la llegada de una astuta gata ladrona que pretende llevar a
+                  cabo un misterioso plan. Sin embargo, mucho más peligrosa es la aparición en escena de Bane, un
+                  terrorista enmascarado cuyos despiadados planes obligan a Bruce a regresar de su voluntario exilio.</Sipnosis>
+            <Foto>batman3.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/Joker_(pel%C3%ADcula)">
+            <Titulo>Joker</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>DC Comics</Productor>
+            <Director>Todd Phillips</Director>
+            <Ano>2019</Ano>
+            <Duracion>121</Duracion>
+            <Genero>Thriller</Genero>
+            <Sipnosis>Arthur Fleck (Phoenix) vive en Gotham con su madre, y su única motivación en la vida es hacer reír a
+                  la gente. Actúa haciendo de payaso en pequeños trabajos, pero tiene problemas mentales que hacen que la
+                  gente le vea como un bicho raro. Su gran sueño es actuar como cómico delante del público, pero una serie
+                  de trágicos acontecimientos le hará ir incrementando su ira contra una sociedad que le ignora.</Sipnosis>
+            <Foto>joker.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/Par%C3%A1sitos_(pel%C3%ADcula)">
+            <Titulo>Parásitos</Titulo>
+            <Nacionalidad>Corea del Sur</Nacionalidad>
+            <Productor>Tokyo Movie Shinsha</Productor>
+            <Director>Bong Joon-ho</Director>
+            <Ano>2019</Ano>
+            <Duracion>132</Duracion>
+            <Genero>Thriller</Genero>
+            <Sipnosis>Tanto Gi Taek (Song Kang-ho) como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo (Choi Woo-sik),
+                  empieza a dar clases particulares en casa de Park (Lee Seon-gyun), las dos familias, que tienen mucho en común
+                  pese a pertenecer a dos mundos totalmente distintos, comienzan una interrelación de resultados imprevisibles.</Sipnosis>
+            <Foto>parasitos.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/Interstellar">
+            <Titulo>Interstellar</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Warner Bros</Productor>
+            <Director>Christopher Nolan</Director>
+            <Ano>2014</Ano>
+            <Duracion>169</Duracion>
+            <Genero>Ciencia ficcion</Genero>
+            <Sipnosis>Al ver que la vida en la Tierra está llegando a su fin, un grupo de exploradores dirigidos por el piloto
+                  Cooper (McConaughey) y la científica Amelia (Hathaway) emprende una misión que puede ser la más importante de la
+                  historia de la humanidad: viajar más allá de nuestra galaxia para descubrir algún planeta en otra que pueda
+                  garantizar el futuro de la raza humana.</Sipnosis>
+            <Foto>interstellar.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/El_padrino_(pel%C3%ADcula)">
+            <Titulo>El Padrino</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Paramount Pictures</Productor>
+            <Director>Francis Ford Coppola</Director>
+            <Ano>1972</Ano>
+            <Duracion>175</Duracion>
+            <Genero>Drama</Genero>
+            <Sipnosis>América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias
+                  de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime
+                  Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone,
+                  en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las
+                  drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias
+                  mafiosas.</Sipnosis>
+            <Foto>padrino1.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/Fight_Club">
+            <Titulo>El club de la lucha</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Fox</Productor>
+            <Director>David Fincher</Director>
+            <Ano>1999</Ano>
+            <Duracion>139</Duracion>
+            <Genero>Drama</Genero>
+            <Sipnosis>Un joven hastiado de su gris y monótona vida lucha contra el insomnio. En un viaje en avión conoce a un carismático
+                  vendedor de jabón que sostiene una teoría muy particular: el perfeccionismo es cosa de gentes débiles; sólo la
+                  autodestrucción hace que la vida merezca la pena. Ambos deciden entonces fundar un club secreto de lucha, donde poder
+                  descargar sus frustaciones y su ira, que tendrá un éxito arrollador.</Sipnosis>
+            <Foto>elclubdelalucha.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/Green_Book_(pel%C3%ADcula)">
+            <Titulo>Green Book</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Universal Pictures</Productor>
+            <Director>Peter Farrelly</Director>
+            <Ano>2018</Ano>
+            <Duracion>130</Duracion>
+            <Genero>Drama</Genero>
+            <Sipnosis>Año 1962. Tony Lip (Viggo Mortensen) es un rudo italoamericano del Bronx que es contratado como chófer del virtuoso
+                  pianista negro Don Shirley (Mahershala Ali). Ambos emprenderán un viaje para una gira de conciertos por el Sur de
+                  Estados Unidos, donde Tony deberá tener presente "El libro verde", una guía que indicaba los pocos establecimientos donde
+                  se aceptaba a los afroamericanos. Son dos personas que tendrán que hacer frente al racismo y los prejuicios, pero a las
+                  que el destino unirá, obligándoles a dejar de lado las diferencias para sobrevivir y prosperar en el viaje de sus vidas.</Sipnosis>
+            <Foto>greenbook.jpg</Foto>
+      </pelicula>
+      <pelicula url="https://es.wikipedia.org/wiki/Back_to_the_Future">
+            <Titulo>Regreso al futuro</Titulo>
+            <Nacionalidad>Estados Unidos</Nacionalidad>
+            <Productor>Universal Pictures</Productor>
+            <Director>Robert Zemeckis</Director>
+            <Ano>1985</Ano>
+            <Duracion>116</Duracion>
+            <Genero>Ciencia ficcion</Genero>
+            <Sipnosis>El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina
+                  para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se
+                  habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario,
+                  su existencia no sería posible.</Sipnosis>
+            <Foto>backtothefuture.jpg</Foto>
+      </pelicula>
+</peliculas>

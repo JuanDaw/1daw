@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="Vehicles.xsl" type="text/xsl" ?>
+
+<vehicles>
+    <vehicle year="1996" make="Land Rover" model="Discovery">
+        <mileage>36500</mileage>
+        <color>black</color>
+        <price>$22100</price>
+    </vehicle>
+    <vehicle year="1998" make="Land Rover" model="Discovery">
+        <mileage>15900</mileage>
+        <color>teal</color>
+        <price>$32000</price>
+    </vehicle>
+    <vehicle year="1997" make="Land Rover" model="Discovery">
+        <mileage>46000</mileage>
+        <color>silver</color>
+        <price>$27900</price>
+    </vehicle>
+    <vehicle year="1994" make="Land Rover" model="Defender 90">
+        <mileage>42450</mileage>
+        <color>green</color>
+        <price>$31250</price>
+    </vehicle>
+    <vehicle year="1996" make="Toyota" model="Land Cruiser">
+        <mileage>34800</mileage>
+        <color>black</color>
+        <price>$25995</price>
+    </vehicle>
+    <vehicle year="1997" make="Toyota" model="Land Cruiser">
+        <mileage>47150</mileage>
+        <color>green</color>
+        <price>$37000</price>
+    </vehicle>
+</vehicles>

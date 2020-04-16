@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="ejercicio2.xsl" ?>
+<alumnos>
+    <alumno numero="01">
+        <nombre>Jose</nombre>
+        <apellidos>Muñoz Soto</apellidos>
+        <notatareas>9.0</notatareas>
+        <notacuestionarios>7.0</notacuestionarios>
+        <notaexamen>7.0</notaexamen>
+    </alumno>
+    <alumno numero="02">
+        <nombre>Ana</nombre>
+        <apellidos>Martinez de la Fuente</apellidos>
+        <notatareas>9.0</notatareas>
+        <notacuestionarios>8.0</notacuestionarios>
+        <notaexamen>9.0</notaexamen>
+    </alumno>
+    <alumno numero="03">
+        <nombre>Esther</nombre>
+        <apellidos>Pereda</apellidos>
+        <notatareas>3.0</notatareas>
+        <notacuestionarios>2.0</notacuestionarios>
+        <notaexamen>2.0</notaexamen>
+    </alumno>
+    <alumno numero="04">
+        <nombre>Alonso</nombre>
+        <apellidos>Fernandez Vidal</apellidos>
+        <notatareas>4.0</notatareas>
+        <notacuestionarios>5.0</notacuestionarios>
+        <notaexamen>5.0</notaexamen>
+    </alumno>
+    <alumno numero="05">
+        <nombre>Selim</nombre>
+        <apellidos>Roldán Pedrote</apellidos>
+        <notatareas>8.0</notatareas>
+        <notacuestionarios>5.0</notacuestionarios>
+        <notaexamen>6.0</notaexamen>
+    </alumno>
+    <alumno numero="06">
+        <nombre>Alejandro</nombre>
+        <apellidos>Jiménez Díaz</apellidos>
+        <notatareas>6.0</notatareas>
+        <notacuestionarios>5.0</notacuestionarios>
+        <notaexamen>7.0</notaexamen>
+    </alumno>
+    <alumno numero="07">
+        <nombre>Pablo</nombre>
+        <apellidos>Morales Robles</apellidos>
+        <notatareas>5.0</notatareas>
+        <notacuestionarios>5.0</notacuestionarios>
+        <notaexamen>5.0</notaexamen>
+    </alumno>
+    <alumno numero="08">
+        <nombre>Abraham</nombre>
+        <apellidos>La O Pérez</apellidos>
+        <notatareas>9.0</notatareas>
+        <notacuestionarios>9.0</notacuestionarios>
+        <notaexamen>8.0</notaexamen>
+    </alumno>
+    <alumno numero="09">
+        <nombre>Moisés</nombre>
+        <apellidos>Pérez Bernal</apellidos>
+        <notatareas>5.0</notatareas>
+        <notacuestionarios>7.0</notacuestionarios>
+        <notaexamen>6.0</notaexamen>
+    </alumno>
+    <alumno numero="10">
+        <nombre>Rafael</nombre>
+        <apellidos>De la Rosa</apellidos>
+        <notatareas>8.0</notatareas>
+        <notacuestionarios>4.0</notacuestionarios>
+        <notaexamen>5.0</notaexamen>
+    </alumno>
+</alumnos>

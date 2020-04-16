@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="artistas7.xsl" ?>
+<catalogo>
+    <artistas>
+        <artista id="uno">
+            <nombre>Carlos Jean</nombre>
+            <nacionalidad>España</nacionalidad>
+        </artista>
+        <artista id="dos">
+            <nombre>Miguel Rios</nombre>
+            <nacionalidad>España</nacionalidad>
+        </artista>
+        <artista id="tres">
+            <nombre>La Mala</nombre>
+            <nacionalidad>España</nacionalidad>
+        </artista>
+        <artista id="cuatro">
+            <nombre>Etta James</nombre>
+            <nacionalidad>USA</nacionalidad>
+        </artista>
+    </artistas>
+    <discograficas>
+        <discografica id="uno">
+            <nombre>Motown</nombre>
+            <nacionalidad>USA</nacionalidad>
+        </discografica>
+        <discografica id="dos">
+            <nombre>Subterfuge</nombre>
+            <nacionalidad>España</nacionalidad>
+        </discografica>
+        <discografica id="tres">
+            <nombre>Sony</nombre>
+            <nacionalidad>USA</nacionalidad>
+        </discografica>
+    </discograficas>
+    <cds>
+        <cd autor="uno" disc="dos">
+            <titulo>Bad Jean</titulo>
+            <precio>15</precio>
+            <ano>2000</ano>
+        </cd>
+        <cd autor="dos" disc="tres">
+            <titulo>Rock and Rios</titulo>
+            <precio>12</precio>
+            <ano>1982</ano>
+        </cd>
+        <cd autor="tres" disc="tres">
+            <titulo>Malamarismo</titulo>
+            <precio>10.90</precio>
+            <ano>2008</ano>
+        </cd>
+        <cd autor="cuatro" disc="uno">
+            <titulo>At last</titulo>
+            <precio>13</precio>
+            <ano>1979</ano>
+        </cd>
+        <cd autor="cuatro" disc="uno">
+            <titulo>Chess soul sisters</titulo>
+            <precio>16</precio>
+            <ano>1980</ano>
+        </cd>
+        <cd autor="dos" disc="dos">
+            <titulo>Michael Rios</titulo>
+            <precio>10</precio>
+            <ano>1973</ano>
+        </cd>
+        <cd autor="uno" disc="dos">
+            <titulo>Party Stereo</titulo>
+            <precio>13</precio>
+            <ano>2009</ano>
+        </cd>
+        <cd autor="tres" disc="tres">
+            <titulo>Dirty Bailarina</titulo>
+            <precio>13</precio>
+            <ano>1979</ano>
+        </cd>
+    </cds>
+</catalogo>
