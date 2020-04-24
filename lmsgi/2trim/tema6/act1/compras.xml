@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE compras [
+    <!ELEMENT compras (compra+)>
+    <!ELEMENT compra (codCompra, fecha, cliente, casa)>
+    <!ELEMENT codCompra (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT cliente (dni, nombre, apellidos, dirCliente, telefono)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT dirCliente (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT casa (codCasa, dirCasa, tipo, nHabitaciones, nBanos, precio)>
+    <!ELEMENT codCasa (#PCDATA)>
+    <!ELEMENT dirCasa (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT nHabitaciones (#PCDATA)>
+    <!ELEMENT nBanos (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+
+<compras>
+    <compra>
+        <codCompra>AAAA</codCompra>
+        <fecha>12/10/04</fecha>
+        <cliente>
+            <dni>44444444</dni>
+            <nombre>José</nombre>
+            <apellidos>Garcia Pérez</apellidos>
+            <dirCliente>C/ Ancha Nº 3</dirCliente>
+            <telefono>678-456787</telefono>
+        </cliente>
+        <casa>
+            <codCasa>111</codCasa>
+            <dirCasa>C/ Ancha Nº 4</dirCasa>
+            <tipo>Duplex</tipo>
+            <nHabitaciones>4</nHabitaciones>
+            <nBanos>3</nBanos>
+            <precio>130.000 €</precio>
+        </casa>
+    </compra>
+    <compra>
+        <codCompra>BBBB</codCompra>
+        <fecha>13/10/04</fecha>
+        <cliente>
+            <dni>44444444</dni>
+            <nombre>José</nombre>
+            <apellidos>Garcia Pérez</apellidos>
+            <dirCliente>C/ Ancha Nº 3</dirCliente>
+            <telefono>678-456787</telefono>
+        </cliente>
+        <casa>
+            <codCasa>222</codCasa>
+            <dirCasa>C/ Madrid Nº 3</dirCasa>
+            <tipo>Piso</tipo>
+            <nHabitaciones>3</nHabitaciones>
+            <nBanos>2</nBanos>
+            <precio>100.000 €</precio>
+        </casa>
+    </compra>
+    <compra>
+        <codCompra>CCCC</codCompra>
+        <fecha>5/5/04</fecha>
+        <cliente>
+            <dni>66666666</dni>
+            <nombre>Rosa</nombre>
+            <apellidos>Torres Martín</apellidos>
+            <dirCliente>Plaza Mayor Nº 5</dirCliente>
+            <telefono>896-445566</telefono>
+        </cliente>
+        <casa>
+            <codCasa>333</codCasa>
+            <dirCasa>C/ Sevilla Nº 2</dirCasa>
+            <tipo>Chalet</tipo>
+            <nHabitaciones>5</nHabitaciones>
+            <nBanos>3</nBanos>
+            <precio>160.000 €</precio>
+        </casa>
+    </compra>
+</compras>
