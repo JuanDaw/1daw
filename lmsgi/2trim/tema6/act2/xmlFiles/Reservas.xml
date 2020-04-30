@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE reservas [
+    <!ELEMENT reservas (reserva+)>
+    <!ELEMENT reserva (codigo, fechaReserva, ndias, cliente, habitacion, precio)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT fechaReserva (#PCDATA)>
+    <!ELEMENT ndias (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT cliente (dni, nombre, apellidos, direccion, telefono)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT habitacion (codigohab, ubicacion, tipo, estado)>
+    <!ELEMENT codigohab (#PCDATA)>
+    <!ELEMENT ubicacion (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT estado (#PCDATA)>
+]>
+
+<reservas>
+    <reserva>
+        <codigo>111</codigo>
+        <fechaReserva>12/10/04</fechaReserva>
+        <ndias>5</ndias>
+        <cliente>
+            <dni>6666666</dni>
+            <nombre>Rosa</nombre>
+            <apellidos>Torres Martin</apellidos>
+            <direccion>PlazaMayorNº5</direccion>
+            <telefono>896-445566</telefono>
+        </cliente>
+        <habitacion>
+            <codigohab>1A</codigohab>
+            <ubicacion>1ºPlanta</ubicacion>
+            <tipo>Doble</tipo>
+            <estado>Libre</estado>
+        </habitacion>
+        <precio>30€</precio>
+    </reserva>
+    <reserva>
+        <codigo>222</codigo>
+        <fechaReserva>1/4/05</fechaReserva>
+        <ndias>7</ndias>
+        <cliente>
+            <dni>6666666</dni>
+            <nombre>Rosa</nombre>
+            <apellidos>Torres Martin</apellidos>
+            <direccion>PlazaMayorNº5</direccion>
+            <telefono>896-445566</telefono>
+        </cliente>
+        <habitacion>
+            <codigohab>1A</codigohab>
+            <ubicacion>1ºPlanta</ubicacion>
+            <tipo>Doble</tipo>
+            <estado>Libre</estado>
+        </habitacion>
+        <precio>60€</precio>
+    </reserva>
+    <reserva>
+        <codigo>333</codigo>
+        <fechaReserva>2/12/04</fechaReserva>
+        <ndias>3</ndias>
+        <cliente>
+            <dni>555555555</dni>
+            <nombre>Jesús</nombre>
+            <apellidos>Domingo Ruiz</apellidos>
+            <direccion>C/Nueva Nº4</direccion>
+            <telefono>789-654567</telefono>
+        </cliente>
+        <habitacion>
+            <codigohab>2C</codigohab>
+            <ubicacion>2ºPlanta</ubicacion>
+            <tipo>Simple</tipo>
+            <estado>Reservada</estado>
+        </habitacion>
+        <precio>18€</precio>
+    </reserva>
+</reservas>

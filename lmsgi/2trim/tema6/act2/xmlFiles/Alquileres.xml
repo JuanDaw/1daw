@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE facturas [
+    <!ELEMENT facturas (factura+)>
+    <!ELEMENT factura (codFactura, fecha, totalPagar, nArticulos, cliente, articulo)>
+    <!ELEMENT codFactura (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT totalPagar (#PCDATA)>
+    <!ELEMENT nArticulos (#PCDATA)>
+    <!ELEMENT cliente (dni, nCliente, apellidos, dirCliente, telf)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nCliente (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT dirCliente (#PCDATA)>
+    <!ELEMENT telf (#PCDATA)>
+    <!ELEMENT articulo (codArticulo, nArticulo, precioCompra, precioVenta)>
+    <!ELEMENT codArticulo (#PCDATA)>
+    <!ELEMENT nArticulo (#PCDATA)>
+    <!ELEMENT precioCompra (#PCDATA)>
+    <!ELEMENT precioVenta (#PCDATA)>
+]>
+
+<facturas>
+    <factura>
+        <codFactura>111-x</codFactura>
+        <fecha>12/10/04</fecha>
+        <totalPagar>4000 €</totalPagar>
+        <nArticulos>2</nArticulos>
+        <cliente>
+            <dni>11111111</dni>
+            <nCliente>María</nCliente>
+            <apellidos>García Montes</apellidos>
+            <dirCliente>C/ Ancha Nº 3</dirCliente>
+            <telf>678-456787</telf>
+        </cliente>
+        <articulo>
+            <codArticulo>xxxx</codArticulo>
+            <nArticulo>Mesa Oval</nArticulo>
+            <precioCompra>2000 €</precioCompra>
+            <precioVenta>3000 €</precioVenta>
+        </articulo>
+    </factura>
+    <factura>
+        <codFactura>222-y</codFactura>
+        <fecha>1/1/05</fecha>
+        <totalPagar>1000 €</totalPagar>
+        <nArticulos>2</nArticulos>
+        <cliente>
+            <dni>11111111</dni>
+            <nCliente>María</nCliente>
+            <apellidos>García Montes</apellidos>
+            <dirCliente>C/ Ancha Nº 3</dirCliente>
+            <telf>678-456787</telf>
+        </cliente>
+        <articulo>
+            <codArticulo>zzzz</codArticulo>
+            <nArticulo>Sillón PC</nArticulo>
+            <precioCompra>500 €</precioCompra>
+            <precioVenta>5000 €</precioVenta>
+        </articulo>
+    </factura>
+    <factura>
+        <codFactura>333-z</codFactura>
+        <fecha>2/12/04</fecha>
+        <totalPagar>1000€</totalPagar>
+        <nArticulos>2</nArticulos>
+        <cliente>
+            <dni>33333333</dni>
+            <nCliente>Javier</nCliente>
+            <apellidos>Vázquez Buendia</apellidos>
+            <dirCliente>Plaza Mayor Nº 5</dirCliente>
+            <telf>455-677656</telf>
+        </cliente>
+        <articulo>
+            <codArticulo>zzzz</codArticulo>
+            <nArticulo>Sillón PC</nArticulo>
+            <precioCompra>500 €</precioCompra>
+            <precioVenta>5000 €</precioVenta>
+        </articulo>
+    </factura>
+</facturas>
