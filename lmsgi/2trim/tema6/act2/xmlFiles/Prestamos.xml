@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE prestamos [
+    <!ELEMENT prestamos (prestamo+)>
+    <!ELEMENT prestamo (codPrestamo, fechaEnt, fechaDev, sancion, alumno, libro)>
+    <!ELEMENT codPrestamo (#PCDATA)>
+    <!ELEMENT fechaEnt (#PCDATA)>
+    <!ELEMENT fechaDev (#PCDATA)>
+    <!ELEMENT sancion (#PCDATA)>
+    <!ELEMENT alumno (dni, nAlumno, apellidos, dirAlumno, telf)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nAlumno (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT dirAlumno (#PCDATA)>
+    <!ELEMENT telf (#PCDATA)>
+    <!ELEMENT libro (codLibro, nLibro, autor, genero)>
+    <!ELEMENT codLibro (#PCDATA)>
+    <!ELEMENT nLibro (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+]>
+
+<prestamos>
+    <prestamo>
+        <codPrestamo>111</codPrestamo>
+        <fechaEnt>12/10/04</fechaEnt>
+        <fechaDev>15/10/04</fechaDev>
+        <sancion>Ninguna</sancion>
+        <alumno>
+            <dni>44444444</dni>
+            <nAlumno>José</nAlumno>
+            <apellidos>García Pérez</apellidos>
+            <dirAlumno>C/ Ancha Nº 3</dirAlumno>
+            <telf>678-456787</telf>
+        </alumno>
+        <libro>
+            <codLibro>xxxx</codLibro>
+            <nLibro>Nada</nLibro>
+            <autor>Carmen Laforet</autor>
+            <genero>Novela</genero>
+        </libro>
+    </prestamo>
+    <prestamo>
+        <codPrestamo>222</codPrestamo>
+        <fechaEnt>1/4/05</fechaEnt>
+        <fechaDev>4/4/05</fechaDev>
+        <sancion>Ninguna</sancion>
+        <alumno>
+            <dni>44444444</dni>
+            <nAlumno>José</nAlumno>
+            <apellidos>García Pérez</apellidos>
+            <dirAlumno>C/ Ancha Nº 3</dirAlumno>
+            <telf>678-456787</telf>
+        </alumno>
+        <libro>
+            <codLibro>zzzz</codLibro>
+            <nLibro>La Celestina</nLibro>
+            <autor>Fernando Rojas</autor>
+            <genero>Novela</genero>
+        </libro>
+    </prestamo>
+    <prestamo>
+        <codPrestamo>333</codPrestamo>
+        <fechaEnt>2/12/04</fechaEnt>
+        <fechaDev>10/12/04</fechaDev>
+        <sancion>2 €</sancion>
+        <alumno>
+            <dni>66666666</dni>
+            <nAlumno>Rosa</nAlumno>
+            <apellidos>Torres Martín</apellidos>
+            <dirAlumno>Plaza Mayor Nº 5</dirAlumno>
+            <telf>896-445566</telf>
+        </alumno>
+        <libro>
+            <codLibro>zzzz</codLibro>
+            <nLibro>La Celestina</nLibro>
+            <autor>Fernando Rojas</autor>
+            <genero>Novela</genero>
+        </libro>
+    </prestamo>
+</prestamos>
