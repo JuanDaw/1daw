@@ -7,7 +7,7 @@ public class Principal {
         var puntos = new Elemento<Puntos>(50, 10, new Puntos());
 
         nave1.getElemento().arriba();
-        vidas.getElemento().aumentarVida(8);
+        vidas.getElemento().sumVida(8);
         puntos.posicion();
     }
 }
