@@ -23,7 +23,7 @@ public class Principal {
 		int tecla = sc.nextInt();
 		while (tecla != 0) {
 			moverTeclado(tablero, tecla);
-			System.out.println("Introduzca su siguiente accion");
+			System.out.println("Introduzca su siguiente acción");
 			sc = new Scanner(System.in);
 			tecla = sc.nextInt();
 		}

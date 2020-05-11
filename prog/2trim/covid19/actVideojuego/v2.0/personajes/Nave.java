@@ -11,25 +11,21 @@ public class Nave extends Elemento implements Movible {
 
 	@Override
 	public void arriba() {
-		// TODO Auto-generated method stub
 		System.out.println("Nave se mueve arriba");
 	}
 
 	@Override
 	public void abajo() {
-		// TODO Auto-generated method stub
 		System.out.println("Nave se mueve abajo");
 	}
 
 	@Override
 	public void izquierda() {
-		// TODO Auto-generated method stub
 		System.out.println("Nave se mueve izquierda");
 	}
 
 	@Override
 	public void derecha() {
-		// TODO Auto-generated method stub
 		System.out.println("Nave se mueve derecha");
 	}
 }

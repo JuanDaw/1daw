@@ -27,8 +27,8 @@ public class Marcador extends Elemento {
 		this.puntuacion = puntuacion;
 	}
 
-	public void modificarPuntuacion(boolean signo) {
-		// si el signo es true aumentamos la puntuacion sino restamos
+	public void modPuntuacion(boolean signo) {
+		// si el signo es true aumentamos la puntuacion, sino restamos
 		if (signo) {
 			this.puntuacion++;
 		} else {
@@ -36,8 +36,8 @@ public class Marcador extends Elemento {
 		}
 	}
 
-	public void modificarVidas(boolean signo) {
-		// si el signo es true aumentamos las vidas sino restamos
+	public void modVidas(boolean signo) {
+		// si el signo es true aumentamos las vidas, sino restamos
 		if (signo) {
 			this.vidas++;
 		} else {
