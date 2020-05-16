@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados [
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT jefe (#PCDATA)>
+<!ELEMENT sede (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT empleado (apellido, nombre, categoria, departamento)>
+<!ATTLIST empleado
+	num (00012 | 00023 | 00045) #REQUIRED
+>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT departamento (id, jefe, sede)>
+]>
+<empleados>
+    <empleado num="00023">
+        <apellido>Lopez</apellido>
+        <nombre>Alejandro</nombre>
+        <categoria>Ingeniero</categoria>
+        <departamento>
+            <id>022</id>
+            <jefe>00023</jefe>
+            <sede>Sevilla</sede>
+        </departamento>
+    </empleado>
+    <empleado num="00012">
+        <apellido>Gomez</apellido>
+        <nombre>Pedro</nombre>
+        <categoria>Ingeniero</categoria>
+        <departamento>
+            <id>011</id>
+            <jefe>00012</jefe>
+            <sede>Madrid</sede>
+        </departamento>
+    </empleado>
+    <empleado num="00045">
+        <apellido>Perez</apellido>
+        <nombre>Gonzalo</nombre>
+        <categoria>Perito</categoria>
+        <departamento>
+            <id>022</id>
+            <jefe>00023</jefe>
+            <sede>Sevilla</sede>
+        </departamento>
+    </empleado>
+</empleados>

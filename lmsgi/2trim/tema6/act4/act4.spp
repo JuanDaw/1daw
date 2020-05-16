@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="XML Files" ExtStr="xml;cml;math;rdf;smil;svg;wml">
+		<File FilePath="xmlFiles\almacenlibros.xml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XSL Files" ExtStr="xsl;xslt"/>
+	<Folder FolderName="XQuery Files" ExtStr="xq;xql;xquery;xqu">
+		<File FilePath="xqueryFiles\1.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\10.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\2.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\3.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\4.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\5.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\6.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\7.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\8.xquery" HomeFolder="Yes"/>
+		<File FilePath="xqueryFiles\9.xquery" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp">
+		<File FilePath="htmlFiles\1.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\10.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\2.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\3.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\4.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\5.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\6.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\7.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\8.html" HomeFolder="Yes"/>
+		<File FilePath="htmlFiles\9.html" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd"/>
+	<Folder FolderName="Entities" ExtStr="ent"/>
+</Project>
