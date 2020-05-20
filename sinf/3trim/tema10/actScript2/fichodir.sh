@@ -9,7 +9,6 @@ then
         if [ -f $1 ]
         then
             echo "$1 es un fichero"
-            
         else
             echo "$1 no existe"
         fi

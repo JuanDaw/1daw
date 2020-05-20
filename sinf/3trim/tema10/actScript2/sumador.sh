@@ -4,15 +4,7 @@ if [ $# -ge 2 ]
 then
     for i in "$@"
     do
-        es_numero='^[0-9]+$'
-        if [ "1" = '^[0-9]+$' ]
-        then
-            #acumulador=$(($acumulador + $i))
-            acumulador=$(expr $acumulador + $i)
-        else
-            echo "El argumento $i no es un número"
-            break
-        fi
+        acumulador=$(($acumulador + $i))
     done
     echo "$acumulador"
 else
