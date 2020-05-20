@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<proveedores>
+    <proveedor numprov="v1">
+        <nombreprov>Smith</nombreprov>
+        <estado>20</estado>
+        <ciudad>Londres</ciudad>
+    </proveedor>
+    <proveedor numprov="v2">
+        <nombreprov>Jones</nombreprov>
+        <estado>10</estado>
+        <ciudad>Paris</ciudad>
+    </proveedor>
+    <proveedor numprov="v3">
+        <nombreprov>Blake</nombreprov>
+        <estado>30</estado>
+        <ciudad>Paris</ciudad>
+    </proveedor>
+    <proveedor numprov="v4">
+        <nombreprov>Clarke</nombreprov>
+        <estado>20</estado>
+        <ciudad>Londres</ciudad>
+    </proveedor>
+    <proveedor numprov="v5">
+        <nombreprov>Adams</nombreprov>
+        <estado>30</estado>
+        <ciudad>Atenas</ciudad>
+    </proveedor>
+</proveedores>
