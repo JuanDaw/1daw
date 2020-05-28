@@ -16,10 +16,10 @@ else
                 ls -R $dir
             elif [ $i = "/w" ]
             then
-                ls -l $dir
+                ls $dir
             elif [ $i = "/p" ]
             then
-                echo "p"
+                ls -l $dir
             fi
         done
     else

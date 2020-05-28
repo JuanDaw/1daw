@@ -1,0 +1,12 @@
+Crea un script que se le pase tres parámetros, el primero será el nombre
+de un fichero que debe existir, los otros dos son cualquier palabra. El programa
+recorrerá el fichero, línea a línea mediante una estructura iterativa y cambiará cada
+ocurrencia de la palabra que aparece en el segundo parámetro por la que aparece en
+el tercer parámetro. Mostrará por pantalla la salida con los cambios realizados. Se
+deberá comprobar la existencia del fichero y el número de parámetros.
+Crea un script que se le pase tres parámetros, el primero será el nombre
+de un fichero que debe existir, los otros dos son cualquier palabra. El programa
+recorrerá el fichero, línea a línea mediante una estructura iterativa y cambiará cada
+ocurrencia de la palabra que aparece en el segundo parámetro por la que aparece en
+el tercer parámetro. Mostrará por pantalla la salida con los cambios realizados. Se
+deberá comprobar la existencia del fichero y el número de parámetros.
